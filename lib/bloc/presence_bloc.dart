@@ -45,12 +45,12 @@ class PresenceBloc extends Bloc<PresenceEvent, PresenceState> {
         yield PresenceLoading();
         var element = await initList(
             query:
-                "SELECT * FROM agents inner join presences ON presences.codeAgent=agents.id WHERE id='${event.data['barcode']}' AND presences.dateAdd=CURRENT_DATE");
-        print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%> ${element}");
+                "SELECT * FROM agents inner join presences ON presences.codeAgent=agents.id WHERE id='${event.data['barcode']}' AND presences.dateAdd='${DateTime.now().toString().substring(0, 10)}'");
+
         if (element.length > 0) {
           await update(
               sql:
-                  "UPDATE presences SET sortie='${time}' WHERE dateAdd=CURRENT_DATE AND codeAgent='${event.data['barcode']}'");
+                  "UPDATE presences SET sortie='${time}' WHERE dateAdd='${DateTime.now().toString().substring(0, 10)}' AND codeAgent='${event.data['barcode']}'");
         } else {
           var presence = ModelPresenceLocal(
             codeAgent: event.data['barcode'],
@@ -67,9 +67,10 @@ class PresenceBloc extends Bloc<PresenceEvent, PresenceState> {
           );
         }
 
+        print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%> ${element}");
         var elment = await initList(
           query:
-              "SELECT * FROM agents INNER JOIN presences ON presences.codeAgent=agents.id WHERE id='${event.data['barcode']}' AND presences.dateAdd=CURRENT_DATE",
+              "SELECT * FROM agents INNER JOIN presences ON presences.codeAgent=agents.id WHERE id='${event.data['barcode']}' AND DATE(presences.dateAdd)='${DateTime.now().toString().substring(0, 10)}'",
         );
         if (elment.length > 0) {
           yield PresenceSucces(data: elment);
@@ -141,7 +142,7 @@ class PresenceBloc extends Bloc<PresenceEvent, PresenceState> {
       } else {
         var element = await initList(
             query:
-                "SELECT * FROM agents INNER JOIN presences ON agents.id=presences.codeAgent WHERE presences.dateAdd=CURRENT_DATE");
+                "SELECT * FROM agents INNER JOIN presences ON agents.id=presences.codeAgent WHERE presences.dateAdd='${DateTime.now().toString().substring(0, 10)}'");
         this.replay = element;
         if (replay.length > 0) {
           yield PresenceLoadLoadedList();

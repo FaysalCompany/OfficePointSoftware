@@ -80,6 +80,12 @@ class _MyApp extends State<MyApp> {
           primarySwatch: Colors.grey,
           dividerTheme: DividerThemeData(space: 0),
           fontFamily: '${AppTheme.primaryFont}',
+        ).copyWith(
+          pageTransitionsTheme: const PageTransitionsTheme(
+            builders: <TargetPlatform, PageTransitionsBuilder>{
+              TargetPlatform.android: ZoomPageTransitionsBuilder(),
+            },
+          ),
         ),
         initialRoute: '/',
         routes: <String, WidgetBuilder>{
@@ -93,8 +99,4 @@ class _MyApp extends State<MyApp> {
       ),
     );
   }
-  // Locale _locale;
-
-  // void setLocale(Locale locale) => setState(() => _locale = locale);
-
 }

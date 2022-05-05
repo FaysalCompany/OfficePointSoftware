@@ -42,8 +42,8 @@
 25        android:debuggable="true"
 26        android:icon="@mipmap/ic_launcher"
 26-->/Users/akim/Documents/OUTILS/Projets/Mobile/presence/v2.1/android/app/src/main/AndroidManifest.xml:14:9-43
-27        android:label="SCAN-POINT" >
-27-->/Users/akim/Documents/OUTILS/Projets/Mobile/presence/v2.1/android/app/src/main/AndroidManifest.xml:13:9-35
+27        android:label="OFFICE POINT" >
+27-->/Users/akim/Documents/OUTILS/Projets/Mobile/presence/v2.1/android/app/src/main/AndroidManifest.xml:13:9-37
 28        <activity
 28-->/Users/akim/Documents/OUTILS/Projets/Mobile/presence/v2.1/android/app/src/main/AndroidManifest.xml:15:9-43:20
 29            android:name="com.example.v2.MainActivity"

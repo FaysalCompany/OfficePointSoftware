@@ -224,7 +224,9 @@ class _BodyState extends State<ScreenData> {
                                       imageUrl:
                                           "${DataSource.imgUrl}${data[index]['image'] == '1' ? data[index]['codeAgent'] : 'default'}$extantion",
                                       errorWidget: (context, url, error) =>
-                                          Icon(Icons.error),
+                                          Image.asset(
+                                        "assets/default.png",
+                                      ),
                                       fit: BoxFit.cover,
                                       placeholder: (context, url) =>
                                           SpinKitCircle(

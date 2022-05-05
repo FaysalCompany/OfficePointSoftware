@@ -17,7 +17,7 @@ MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/akim/.gradle/caches/tran
 MERGED from [androidx.exifinterface:exifinterface:1.3.0] /Users/akim/.gradle/caches/transforms-2/files-2.1/ef3e70141ce80265c385477b65c4f7e8/exifinterface-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/akim/.gradle/caches/transforms-2/files-2.1/ddc12348c7538354a46c528303ed5c98/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/akim/.gradle/caches/transforms-2/files-2.1/c15f2e194b51694bbd66aeda415aab9d/zxing-1.9.13/AndroidManifest.xml:2:1-13:12
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/akim/.gradle/caches/transforms-2/files-2.1/29b0771df89eebdde7200446b28f5c8c/jetified-core-1.9.13/AndroidManifest.xml:2:1-13:12
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/akim/.gradle/caches/transforms-2/files-2.1/35733a9ae18b5f4819d9039972dcd0c5/jetified-core-1.9.13/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/akim/.gradle/caches/transforms-2/files-2.1/09be4c98f955b63e9a8cadeb6d33d870/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/akim/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/akim/.gradle/caches/transforms-2/files-2.1/f046f38cf99e9cbe4891b184ce64db19/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -92,8 +92,8 @@ MERGED from [com.google.android.material:material:1.1.0] /Users/akim/.gradle/cac
 MERGED from [com.google.android.material:material:1.1.0] /Users/akim/.gradle/caches/transforms-2/files-2.1/dcd5cfbbf6a58afdda2d064ba6109f93/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/akim/.gradle/caches/transforms-2/files-2.1/c15f2e194b51694bbd66aeda415aab9d/zxing-1.9.13/AndroidManifest.xml:11:5-20
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/akim/.gradle/caches/transforms-2/files-2.1/c15f2e194b51694bbd66aeda415aab9d/zxing-1.9.13/AndroidManifest.xml:11:5-20
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/akim/.gradle/caches/transforms-2/files-2.1/29b0771df89eebdde7200446b28f5c8c/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/akim/.gradle/caches/transforms-2/files-2.1/29b0771df89eebdde7200446b28f5c8c/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/akim/.gradle/caches/transforms-2/files-2.1/35733a9ae18b5f4819d9039972dcd0c5/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/akim/.gradle/caches/transforms-2/files-2.1/35733a9ae18b5f4819d9039972dcd0c5/jetified-core-1.9.13/AndroidManifest.xml:11:5-20
 MERGED from [androidx.core:core:1.1.0] /Users/akim/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] /Users/akim/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/akim/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
@@ -101,7 +101,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/akim
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/akim/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/akim/Documents/OUTILS/Projets/Mobile/presence/v2.1/android/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/akim/Documents/OUTILS/Projets/Mobile/presence/v2.1/android/app/src/main/AndroidManifest.xml:13:9-37
 	android:icon
 		ADDED from /Users/akim/Documents/OUTILS/Projets/Mobile/presence/v2.1/android/app/src/main/AndroidManifest.xml:14:9-43
 	android:name
@@ -176,8 +176,8 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/akim/.gradle/caches/tr
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/akim/.gradle/caches/transforms-2/files-2.1/ddc12348c7538354a46c528303ed5c98/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/akim/.gradle/caches/transforms-2/files-2.1/c15f2e194b51694bbd66aeda415aab9d/zxing-1.9.13/AndroidManifest.xml:7:5-9:41
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /Users/akim/.gradle/caches/transforms-2/files-2.1/c15f2e194b51694bbd66aeda415aab9d/zxing-1.9.13/AndroidManifest.xml:7:5-9:41
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/akim/.gradle/caches/transforms-2/files-2.1/29b0771df89eebdde7200446b28f5c8c/jetified-core-1.9.13/AndroidManifest.xml:7:5-9:41
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/akim/.gradle/caches/transforms-2/files-2.1/29b0771df89eebdde7200446b28f5c8c/jetified-core-1.9.13/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/akim/.gradle/caches/transforms-2/files-2.1/35733a9ae18b5f4819d9039972dcd0c5/jetified-core-1.9.13/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /Users/akim/.gradle/caches/transforms-2/files-2.1/35733a9ae18b5f4819d9039972dcd0c5/jetified-core-1.9.13/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/akim/.gradle/caches/transforms-2/files-2.1/09be4c98f955b63e9a8cadeb6d33d870/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/akim/.gradle/caches/transforms-2/files-2.1/09be4c98f955b63e9a8cadeb6d33d870/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/akim/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:20:5-22:41

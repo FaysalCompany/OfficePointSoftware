@@ -67,6 +67,7 @@ class _BodyState extends State<Body> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBody: true,
       backgroundColor: Colors.white,
       drawer: Container(
         width: MediaQuery.of(context).size.width * 5 / 6.5,

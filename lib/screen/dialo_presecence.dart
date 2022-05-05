@@ -50,7 +50,9 @@ class _BodyState extends State<DialoPresence> {
                   useOldImageOnUrlChange: true,
                   imageUrl:
                       "${DataSource.imgUrl}${widget.resultat['image'] == '1' ? widget.resultat['codeAgent'] : 'default'}$extantion",
-                  errorWidget: (context, url, error) => Icon(Icons.error),
+                  errorWidget: (context, url, error) => Image.asset(
+                    "assets/default.png",
+                  ),
                   fit: BoxFit.cover,
                   placeholder: (context, url) => SpinKitCircle(
                     duration: Duration(seconds: 3),

@@ -45,6 +45,7 @@ class _ScreenSpan extends State<ScreenSpan> {
     return SafeArea(
       // maintainBottomViewPadding: true,
       child: Scaffold(
+        extendBody: true,
         body: Container(
           color: Colors.white,
           child: Center(

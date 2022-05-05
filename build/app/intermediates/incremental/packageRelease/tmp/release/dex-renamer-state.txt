@@ -1,0 +1,4 @@
+#Thu May 05 23:10:00 CAT 2022
+base.0=/Users/akim/Documents/OUTILS/Projets/Mobile/presence/v2.1/build/app/intermediates/transforms/r8/release/0/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
